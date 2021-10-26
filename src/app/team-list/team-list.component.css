@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0;
+}
+
+.container div:first-child{
+    padding: 2em;
+    background-color: brown;
+}
+
+.container div:last-child{
+    padding: 2em;
+    background-color: blue;
+}
